@@ -3,5 +3,5 @@ export const metadata = {
 };
 
 export default function HomePage() {
-  return <h1 className="mt-12 text-center text-3xl font-bold"> If You Don't Know Now You Know </h1>;
+  return <h1 className="mt-12 text-center text-3xl font-bold">Li Yong</h1>;
 }
