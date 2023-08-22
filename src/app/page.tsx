@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Welcome | Jihoo Kim',
+  title: 'Li Yong | 和美好不期而遇',
 };
 
 export default function HomePage() {
