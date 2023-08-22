@@ -11,7 +11,7 @@ export default function HomePage() {
       <h2 className="mt-4 text-center text-2xl font-semibold">How are you today</h2>
       <p className="text-center">热爱生活,知足常乐.</p>
       <h2 className="mt-4 text-center text-2xl font-semibold">Enjoy your time</h2>
-      <p className="text-center">昨天已经成为了历史,而每天却是个谜团,今天是上天赐予的礼物,要像珍惜礼物那样珍惜今天.</p>
+      <p className="text-center">昨天已经成为了历史,明天却是个谜团,而今天是上天赐予的礼物,要像珍惜礼物那样珍惜今天.</p>
     </div>
   );
 }
