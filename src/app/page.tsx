@@ -12,4 +12,3 @@ export default function HomePage() {
     <img src="https://s1.ax1x.com/2023/08/20/pP8bBkt.png" alt="Description of the image" className="w-32 h-32 rounded-full" />
   </a> from my recent adventure.
 </p>
-
