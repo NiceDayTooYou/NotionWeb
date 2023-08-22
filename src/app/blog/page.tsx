@@ -5,7 +5,7 @@ import { getAllPostsFromNotion } from '@/services/posts';
 import { toUniqueArray } from '@/utils/to-unique-array';
 
 export const metadata = {
-  title: 'Blog',
+  title: 'Li Yong',
   description: 'All posts are created by notion ai.',
 };
 
