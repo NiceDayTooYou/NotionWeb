@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'serendipity',
+  title: 'Li Yong',
   description: 'This is about page.',
 };
 
