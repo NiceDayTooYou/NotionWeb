@@ -3,7 +3,7 @@ export const metadata = {
 };
 
 export default function HomePage() {
- return (
+  return (
     <div>
       <h1 className="mt-12 text-center text-3xl font-bold">Welcome to my page</h1>
       <h2 className="mt-4 text-center text-2xl font-semibold">If You don't know now you know</h2>
