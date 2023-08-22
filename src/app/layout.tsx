@@ -10,8 +10,8 @@ import '@/styles/paginate.css';
 
 export const metadata = {
   title: {
-    default: 'Li Yong',
-    template: '%s | Li Yong',
+    default: '和美好不期而遇',
+    template: '%s | 和美好不期而遇',
   },
 };
 
