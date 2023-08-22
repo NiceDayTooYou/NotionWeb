@@ -4,10 +4,10 @@ import NavLink from '@/components/header/nav-link';
 import ThemeToggle from '@/components/theme-toggle';
 
 const NAV_ITEMS = [
-  { path: 'blog', name: 'Blog' },
+  { path: 'blog', name: 'Li Yong' },
   { path: 'about', name: 'About' },
   { path: 'contact', name: 'Contact' },
-  { path: 'projects', name: 'Projects' },
+  { path: 'projects', name: '内容分类' },
 ];
 
 export default function Header() {
