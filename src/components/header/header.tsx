@@ -5,7 +5,6 @@ import ThemeToggle from '@/components/theme-toggle';
 
 const NAV_ITEMS = [
   { path: 'blog', name: 'Serendipity' },
-  { path: 'about', name: 'About' },
 ];
 
 export default function Header() {
