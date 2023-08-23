@@ -5,7 +5,7 @@ import ThemeToggle from '@/components/theme-toggle';
 
 const NAV_ITEMS = [
   { path: 'blog', name: 'Serendipity' },
-  { path: 'about', name: 'About' },
+  { path: 'about', name: 'About', url: 'https://notion-next-vdb7.vercel.app/' }, // 添加 url 属性
 ];
 
 export default function Header() {
@@ -21,7 +21,14 @@ export default function Header() {
               key={item.path}
               className="text-secondary hover:text-primary whitespace-nowrap py-2 text-lg font-medium transition-all duration-300"
             >
-              <NavLink path={item.path}>{item.name}</NavLink>
+              {/* Check if the item has a URL, if yes, use an external link */}
+              {item.url ? (
+                <a href={item.url} target="_blank" rel="noopener noreferrer">
+                  {item.name}
+                </a>
+              ) : (
+                <NavLink path={item.path}>{item.name}</NavLink>
+              )}
             </li>
           ))}
         </ul>
