@@ -14,8 +14,14 @@ export default function HomePage() {
       <h2 className="mt-4 text-center text-2xl font-semibold">Enjoy Your Time</h2>
       <p className="text-center" style={{ color: 'blue', fontSize: '30px' }}>
         昨天已经成为历史
+      </p>
+      <p className="text-center" style={{ color: 'blue', fontSize: '30px' }}>
         明天却是个谜团
+      </p>
+      <p className="text-center" style={{ color: 'blue', fontSize: '30px' }}>
         而今天是天赐的礼物
+      </p>
+      <p className="text-center" style={{ color: 'blue', fontSize: '30px' }}>
         要像珍惜礼物那样珍惜今天
       </p>
     </div>
