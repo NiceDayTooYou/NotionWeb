@@ -3,32 +3,10 @@ import Link from 'next/link';
 import NavLink from '@/components/header/nav-link';
 import ThemeToggle from '@/components/theme-toggle';
 
-import { Route, Switch } from 'react-router-dom';
-
 const NAV_ITEMS = [
-  { path: '/blog', name: 'Serendipity' },
-  { path: '/about', name: 'About' },
+  { path: 'blog', name: 'Serendipity' },
+  { path: 'about', name: 'About' },
 ];
-
-function App() {
-  return (
-    <div>
-      <nav>
-        {navList.map(navItem => (
-          <Link to={navItem.path}>{navItem.name}</https://notion-next-vdb7.vercel.app/>
-        ))}
-      </nav>
-      <Switch>
-        {navList.map(navItem => (
-          <Route key={navItem.name} path={navItem.path} component={navList}>
-          </route>
-        ))}
-      </Switch>
-    </div>
-  );
-}
-
-export default App;
 
 export default function Header() {
   return (
