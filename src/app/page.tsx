@@ -6,6 +6,7 @@ export default function HomePage() {
       <h1 className="mt-12 text-center text-3xl font-bold">Welcome to my page</h1>
       <p className="text-center" style={{ color: 'red', fontSize: '30px' }}>
         "和美好不期而遇"
+      </p>
       <h2 className="mt-4 text-center text-2xl font-semibold">How are you today</h2>
       <p className="text-center" style={{ color: 'green', fontSize: '30px' }}>
         热爱生活，知足常乐。
