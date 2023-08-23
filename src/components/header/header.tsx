@@ -6,7 +6,6 @@ import ThemeToggle from '@/components/theme-toggle';
 const NAV_ITEMS = [
   { path: 'blog', name: 'Serendipity' },
   { path: 'about', name: 'About' },
-  { path: 'contact', name: 'Contact' },
   { path: 'projects', name: '内容分类' },
 ];
 
