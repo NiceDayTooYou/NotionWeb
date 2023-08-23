@@ -4,5 +4,11 @@ export const metadata = {
 };
 
 export default function AboutPage() {
-  return <h1 className="mt-12 text-center text-3xl font-Bold" href="https://notion-next-vdb7.vercel.app/"> About</h1>;
+  return (
+    <div className="mt-12 text-center">
+      <a href="https://notion-next-vdb7.vercel.app/" className="block text-3xl font-bold">
+        About
+      </a>
+    </div>
+  );
 }
