@@ -1,15 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @font-face {
-  font-family: 'Yozai';
-  src: url('/public/webfonts/Yozai.ttf') format('truetype');
+  font-family: 'Yozailight';
+  src: url('/public/webfonts/Yozailight.ttf') format('truetype');
   /* 添加其他字体格式（如 woff、woff2）以提供更好的浏览器兼容性 */
 }
 
 /* 全局样式 */
 body {
-  font-family: 'Yozai', sans-serif;
+  font-family: 'Yozailight', sans-serif;
 }
 
 @layer components {
