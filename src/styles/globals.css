@@ -2,14 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 @font-face {
-  font-family: 'Yozai-Medium';
+  font-family: 'Yozai';
   src: url('/public/webfonts/Yozai-Medium.ttf') format('truetype');
   /* 添加其他字体格式（如 woff、woff2）以提供更好的浏览器兼容性 */
 }
 
 /* 全局样式 */
 body {
-  font-family: 'Yozai-Medium', sans-serif;
+  font-family: 'Yozai', sans-serif;
 }
 
 @layer components {
