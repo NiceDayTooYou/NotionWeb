@@ -1,5 +1,6 @@
 import withPlaiceholder from '@plaiceholder/next';
 import './add-font.js';
+import './_custom-styles.scss';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
