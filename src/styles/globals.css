@@ -3,7 +3,7 @@
 @tailwind utilities;
 @font-face {
   font-family: 'Yozai';
-  src: url('/public/webfonts/Yozai-Medium.ttf') format('truetype');
+  src: url('/public/webfonts/Yozai.ttf') format('truetype');
   /* 添加其他字体格式（如 woff、woff2）以提供更好的浏览器兼容性 */
 }
 
