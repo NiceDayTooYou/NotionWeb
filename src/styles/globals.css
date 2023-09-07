@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'Yozailight';
-  src: url('/public/webfonts/Yozailight.ttf') format('truetype');
+  src: url('/public/fonts/Yozailight.ttf') format('truetype');
   /* 添加其他字体格式（如 woff、woff2）以提供更好的浏览器兼容性 */
 }
 
