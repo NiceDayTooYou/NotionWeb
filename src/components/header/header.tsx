@@ -3,6 +3,9 @@ import Link from 'next/link';
 import NavLink from '@/components/header/nav-link';
 import ThemeToggle from '@/components/theme-toggle';
 
+import './add-font.js';
+import './_custom-styles.scss'; 
+
 const NAV_ITEMS = [
   { path: 'blog', name: 'Serendipity' },
   { path: 'about', name: 'About', url: 'https://liyong.online/' }, // 添加 url 属性
