@@ -1,12 +1,43 @@
 import React from 'react';
 
+interface Props {
+  text: string;
+}
+
+export default function TypewriterInput(props: Props) {
+  const [text, setText] = React.useState<string>(props.text);
+
+  const typewrite = () => {
+    if (text.length === 0) {
+      return;
+    }
+    const char = text[0];
+    setText(text.substring(1));
+    setTimeout(typewrite, 100);
+  };
+
+  React.useEffect(() => {
+    typewrite();
+  }, []);
+
+  return (
+    <div>
+      <h1 className="mt-12 text-center text-3xl font-bold">{`Welcome To My Page`}</h1>
+      <input
+        className="mt-12 text-center text-3xl font-bold"
+        value={text}
+        onChange={e => setText(e.target.value)}
+      />
+    </div>
+  );
+}
+
 export default function HomePage() {
   return (
     <div>
-      <h1 className="mt-12 text-center text-3xl font-bold">Welcome To My Page</h1>
       <p className="text-center" style={{ color: 'red', fontSize: '30px' }}>
         和美好不期而遇❤️
-      </p> {/* 添加一个闭合标签 */}
+      </p> 
       <h2 className="mt-4 text-center text-2xl font-semibold">How Are You Today</h2>
       <p className="text-center" style={{ color: 'green', fontSize: '30px' }}>
         热爱生活，知足常乐👻
