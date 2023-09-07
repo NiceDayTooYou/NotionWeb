@@ -1,11 +1,12 @@
 import React from 'react';
+import { useState } from 'react';
 
 interface Props {
   text: string;
 }
 
 export default function TypewriterInput(props: Props) {
-  const [text, setText] = React.useState<string>(props.text);
+  const [text, setText] = useState<string>(props.text);
 
   const typewrite = () => {
     if (text.length === 0) {
