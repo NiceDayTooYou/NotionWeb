@@ -15,7 +15,7 @@ body {
 
 @layer components {
   .bg-primary {
-    @apply bg-[#f7f7f7] dark:bg-customGray-dark;
+    @apply bg-[#eeecfc] dark:bg-customGray-dark;
   }
 
   .bg-secondary {
