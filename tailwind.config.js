@@ -6,7 +6,7 @@ module.exports = {
       colors: {
         customGray: {
           light: '#2e3039',
-          base: '#eeeeee',
+          base: '#ffffff',
           dark: '#1f2028',
         },
       },
