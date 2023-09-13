@@ -1,5 +1,21 @@
 import React from 'react';
 
+const MyComponent: React.FC = () => {
+  return (
+    <div>
+      <a href="https://git.io/typing-svg">
+        <img
+          src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=F7250E&background=FF491B00&center=true&width=435&lines=welcome+to+my+page"
+          alt="Typing SVG"
+        />
+      </a>
+    </div>
+  );
+};
+
+export default MyComponent;
+
+
 export default function HomePage() {
   return (
     <div>
