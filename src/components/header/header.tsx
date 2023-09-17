@@ -5,7 +5,7 @@ import ThemeToggle from '@/components/theme-toggle';
 
 const NAV_ITEMS = [
   { path: 'blog', name: 'Serendipity' },
-  { path: 'about', name: 'About', url: 'https://liyong.online/' }, // 添加 url 属性
+  { path: 'about', name: 'About', url: 'https://home.liyong.online' }, // 添加 url 属性
 ];
 
 export default function Header() {
