@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
-    const audio = new Audio('studying.mp3');
+    const audio = new Audio('/studying.mp3');
     audio.play();
   }, []);
 
