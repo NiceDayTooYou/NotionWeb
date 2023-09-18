@@ -1,5 +1,3 @@
-import React, { Component, useEffect } from 'react'; // 导入 useEffect
-
 import Link from 'next/link';
 
 import NavLink from '@/components/header/nav-link';
@@ -11,18 +9,6 @@ const NAV_ITEMS = [
 ];
 
 export default function Header() {
-  useEffect(() => {
-    const audio = new Audio('/studying.mp3'); // 替换成你的音乐文件路径
-    audio.loop = true; // 设置音乐循环播放
-
-    audio.play(); // 播放音乐
-
-    // 在组件卸载时停止音乐，以防止内存泄漏
-    return () => {
-      audio.pause(); // 停止音乐
-    };
-  }, []); // 空依赖数组表示仅在组件挂载和卸载时运行
-
   return (
     <nav className="flex flex-col justify-between py-12 md:flex-row">
       <Link href="/" className="self-start md:self-auto">
