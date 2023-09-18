@@ -1,13 +1,22 @@
 import '../src/styles/globals.css';
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 
 function MyApp({ Component, pageProps }) {
-  useEffect(() => {
-    const audio = new Audio('/studying.mp3');
-    audio.play();
-  }, []);
+  const audioRef = useRef(null);
 
-  return <Component {...pageProps} />;
+  const playAudio = () => {
+    if (audioRef.current) {
+      audioRef.current.play();
+    }
+  };
+
+  return (
+    <div>
+      <button onClick={playAudio}>Play Audio</button>
+      <audio ref={audioRef} src="/studying.mp3" />
+      <Component {...pageProps} />
+    </div>
+  );
 }
 
 export default MyApp;
